@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-LocalExecution" class="navigator-link">
-              <span class="suite-name border-failed">LocalExecution</span>
+              <span class="suite-name border-passed">LocalExecution</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-LocalExecution" class="hide-methods failed suite-LocalExecution"> (hide)</a> <!-- hide-methods failed suite-LocalExecution -->
-                      <a href="#" panel-name="suite-LocalExecution" class="show-methods failed suite-LocalExecution"> (show)</a> <!-- show-methods failed suite-LocalExecution -->
-                    </span>
-                    <div class="method-list-content failed suite-LocalExecution">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LocalExecution" title="api_test.posts.PostEndPointTests" class="method navigator-link" hash-for-method="Test_Modify_Post_by_ID">Test_Modify_Post_by_ID</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-LocalExecution" title="api_test.posts.PostEndPointTests" class="method navigator-link" hash-for-method="Test_Search_Post_ID">Test_Search_Post_ID</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-LocalExecution -->
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -141,6 +122,16 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LocalExecution" title="api_test.posts.PostEndPointTests" class="method navigator-link" hash-for-method="Test_Modify_Post_by_ID">Test_Modify_Post_by_ID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LocalExecution" title="api_test.posts.PostEndPointTests" class="method navigator-link" hash-for-method="Test_Search_Post_ID">Test_Search_Post_ID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-LocalExecution" title="api_test.posts.PostEndPointNOTSUCESSTests" class="method navigator-link" hash-for-method="Test_Search_Post_NOID">Test_Search_Post_NOID</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -156,88 +147,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-LocalExecution" class="panel LocalExecution">
-          <div class="suite-LocalExecution-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">api_test.posts.PostEndPointTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Test_Modify_Post_by_ID">
-                  </a> <!-- Test_Modify_Post_by_ID -->
-                  <span class="method-name">Test_Modify_Post_by_ID</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;406&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at api_test.posts.PostEndPointTests.Test_Modify_Post_by_ID(PostEndPointTests.java:86)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Test_Search_Post_ID">
-                  </a> <!-- Test_Search_Post_ID -->
-                  <span class="method-name">Test_Search_Post_ID</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;404&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at api_test.posts.PostEndPointTests.Test_Search_Post_ID(PostEndPointTests.java:70)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-LocalExecution-class-failed -->
           <div class="suite-LocalExecution-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -285,6 +194,20 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
                   <a name="Test_Get_all_Post">
                   </a> <!-- Test_Get_all_Post -->
                   <span class="method-name">Test_Get_all_Post</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Modify_Post_by_ID">
+                  </a> <!-- Test_Modify_Post_by_ID -->
+                  <span class="method-name">Test_Modify_Post_by_ID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Search_Post_ID">
+                  </a> <!-- Test_Search_Post_ID -->
+                  <span class="method-name">Test_Search_Post_ID</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -370,36 +293,36 @@ data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Test_Create_Post_Success')
 data.setCell(0, 2, 'api_test.posts.PostEndPointTests')
-data.setCell(0, 3, 4281);
+data.setCell(0, 3, 9258);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Test_Creat_Post_NOTSuccessToken')
 data.setCell(1, 2, 'api_test.posts.PostEndPointNOTSUCESSTests')
-data.setCell(1, 3, 2766);
+data.setCell(1, 3, 5527);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Test_Modify_Post_by_ID')
-data.setCell(2, 2, 'api_test.posts.PostEndPointTests')
-data.setCell(2, 3, 1828);
+data.setCell(2, 1, 'Test_Search_Post_NOID')
+data.setCell(2, 2, 'api_test.posts.PostEndPointNOTSUCESSTests')
+data.setCell(2, 3, 3899);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Test_Search_Post_NOID')
-data.setCell(3, 2, 'api_test.posts.PostEndPointNOTSUCESSTests')
-data.setCell(3, 3, 1827);
+data.setCell(3, 1, 'Test_Get_all_Post')
+data.setCell(3, 2, 'api_test.posts.PostEndPointTests')
+data.setCell(3, 3, 3587);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Test_Get_all_Post')
+data.setCell(4, 1, 'Test_Search_Post_ID')
 data.setCell(4, 2, 'api_test.posts.PostEndPointTests')
-data.setCell(4, 3, 1812);
+data.setCell(4, 3, 2589);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Test_Search_Post_ID')
+data.setCell(5, 1, 'Test_Delete_Post_by_ID')
 data.setCell(5, 2, 'api_test.posts.PostEndPointTests')
-data.setCell(5, 3, 1703);
+data.setCell(5, 3, 2531);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Test_Delete_Post_by_ID')
+data.setCell(6, 1, 'Test_Modify_Post_by_ID')
 data.setCell(6, 2, 'api_test.posts.PostEndPointTests')
-data.setCell(6, 3, 1633);
+data.setCell(6, 3, 2470);
 window.suiteTableData['LocalExecution']= { tableData: data, tableDiv: 'times-div-LocalExecution'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
               <div id="times-div-LocalExecution">
               </div> <!-- times-div-LocalExecution -->
             </div> <!-- times-div -->
@@ -439,48 +362,44 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Test_Creat_Post_NOTSuccessToken</span>
-                <span class="method-start">732 ms</span>
+                <span class="method-start">2139 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api_test.posts.PostEndPointTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Test_Create_Post_Success</span>
-                <span class="method-start">732 ms</span>
+                <span class="method-start">2139 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api_test.posts.PostEndPointNOTSUCESSTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Test_Search_Post_NOID</span>
-                <span class="method-start">3498 ms</span>
+                <span class="method-start">7666 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">api_test.posts.PostEndPointTests</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <span class="method-name">Test_Get_all_Post</span>
+                <span class="method-start">11405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">CreatePosts</span>
-                <span class="method-start">5013 ms</span>
+                <span class="method-start">14992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Search_Post_ID</span>
+                <span class="method-start">17627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Modify_Post_by_ID</span>
+                <span class="method-start">20216 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Test_Delete_Post_by_ID</span>
-                <span class="method-start">6809 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Test_Get_all_Post</span>
-                <span class="method-start">8442 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Test_Modify_Post_by_ID</span>
-                <span class="method-start">10254 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Test_Search_Post_ID</span>
-                <span class="method-start">12098 ms</span>
+                <span class="method-start">22686 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

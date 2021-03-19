@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-18T02:18:23Z" name="LocalExecution" finished-at="2021-03-18T02:18:37Z" duration-ms="13821">
+  <suite started-at="2021-03-19T00:17:09Z" name="LocalExecution" finished-at="2021-03-19T00:17:34Z" duration-ms="25227">
     <groups>
       <group name="create_post">
-        <method signature="PostEndPointTests.Test_Delete_Post_by_ID()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" name="Test_Delete_Post_by_ID" class="api_test.posts.PostEndPointTests"/>
-        <method signature="PostEndPointTests.Test_Modify_Post_by_ID()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" name="Test_Modify_Post_by_ID" class="api_test.posts.PostEndPointTests"/>
+        <method signature="PostEndPointTests.Test_Delete_Post_by_ID()[pri:2, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" name="Test_Delete_Post_by_ID" class="api_test.posts.PostEndPointTests"/>
+        <method signature="PostEndPointTests.Test_Modify_Post_by_ID()[pri:1, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" name="Test_Modify_Post_by_ID" class="api_test.posts.PostEndPointTests"/>
         <method signature="PostEndPointTests.Test_Search_Post_ID()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" name="Test_Search_Post_ID" class="api_test.posts.PostEndPointTests"/>
       </group> <!-- create_post -->
     </groups>
-    <test started-at="2021-03-18T02:18:23Z" name="PostTestsNOTSUCESS" finished-at="2021-03-18T02:18:28Z" duration-ms="5345">
+    <test started-at="2021-03-19T00:17:09Z" name="PostTestsNOTSUCESS" finished-at="2021-03-19T00:17:20Z" duration-ms="11575">
       <class name="api_test.posts.PostEndPointNOTSUCESSTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:api_test.posts.PostEndPointNOTSUCESSTests@44a664f2]" started-at="2021-03-18T02:18:23Z" name="setup" finished-at="2021-03-18T02:18:24Z" duration-ms="718" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:api_test.posts.PostEndPointNOTSUCESSTests@44a664f2]" started-at="2021-03-19T00:17:09Z" name="setup" finished-at="2021-03-19T00:17:11Z" duration-ms="2093" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,19 +23,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Creat_Post_NOTSuccessToken()[pri:0, instance:api_test.posts.PostEndPointNOTSUCESSTests@44a664f2]" started-at="2021-03-18T02:18:24Z" name="Test_Creat_Post_NOTSuccessToken" finished-at="2021-03-18T02:18:26Z" duration-ms="2766" status="PASS">
+        <test-method signature="Test_Creat_Post_NOTSuccessToken()[pri:0, instance:api_test.posts.PostEndPointNOTSUCESSTests@44a664f2]" started-at="2021-03-19T00:17:11Z" name="Test_Creat_Post_NOTSuccessToken" finished-at="2021-03-19T00:17:16Z" duration-ms="5527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Creat_Post_NOTSuccessToken -->
-        <test-method signature="Test_Search_Post_NOID()[pri:0, instance:api_test.posts.PostEndPointNOTSUCESSTests@44a664f2]" started-at="2021-03-18T02:18:26Z" name="Test_Search_Post_NOID" finished-at="2021-03-18T02:18:28Z" duration-ms="1827" status="PASS">
+        <test-method signature="Test_Search_Post_NOID()[pri:0, instance:api_test.posts.PostEndPointNOTSUCESSTests@44a664f2]" started-at="2021-03-19T00:17:16Z" name="Test_Search_Post_NOID" finished-at="2021-03-19T00:17:20Z" duration-ms="3899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Search_Post_NOID -->
       </class> <!-- api_test.posts.PostEndPointNOTSUCESSTests -->
     </test> <!-- PostTestsNOTSUCESS -->
-    <test started-at="2021-03-18T02:18:23Z" name="PostTests" finished-at="2021-03-18T02:18:37Z" duration-ms="13821">
+    <test started-at="2021-03-19T00:17:09Z" name="PostTests" finished-at="2021-03-19T00:17:34Z" duration-ms="25227">
       <class name="api_test.posts.PostEndPointTests">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-18T02:18:23Z" name="setup" finished-at="2021-03-18T02:18:24Z" duration-ms="718" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-19T00:17:09Z" name="setup" finished-at="2021-03-19T00:17:11Z" duration-ms="2093" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,170 +46,30 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Test_Create_Post_Success()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-18T02:18:24Z" name="Test_Create_Post_Success" finished-at="2021-03-18T02:18:28Z" duration-ms="4281" status="PASS">
+        <test-method signature="Test_Create_Post_Success()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-19T00:17:11Z" name="Test_Create_Post_Success" finished-at="2021-03-19T00:17:20Z" duration-ms="9258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Create_Post_Success -->
-        <test-method is-config="true" signature="CreatePosts()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-18T02:18:28Z" name="CreatePosts" finished-at="2021-03-18T02:18:30Z" duration-ms="1796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreatePosts -->
-        <test-method signature="Test_Delete_Post_by_ID()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-18T02:18:30Z" name="Test_Delete_Post_by_ID" finished-at="2021-03-18T02:18:31Z" duration-ms="1633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Delete_Post_by_ID -->
-        <test-method signature="Test_Get_all_Post()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-18T02:18:31Z" name="Test_Get_all_Post" finished-at="2021-03-18T02:18:33Z" duration-ms="1812" status="PASS">
+        <test-method signature="Test_Get_all_Post()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-19T00:17:20Z" name="Test_Get_all_Post" finished-at="2021-03-19T00:17:24Z" duration-ms="3587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Get_all_Post -->
-        <test-method signature="Test_Modify_Post_by_ID()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-18T02:18:33Z" name="Test_Modify_Post_by_ID" finished-at="2021-03-18T02:18:35Z" duration-ms="1828" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <406>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <406>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at api_test.posts.PostEndPointTests.Test_Modify_Post_by_ID(PostEndPointTests.java:86)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method is-config="true" signature="CreatePosts()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-19T00:17:24Z" name="CreatePosts" finished-at="2021-03-19T00:17:26Z" duration-ms="2635" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Modify_Post_by_ID -->
-        <test-method signature="Test_Search_Post_ID()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-18T02:18:35Z" name="Test_Search_Post_ID" finished-at="2021-03-18T02:18:37Z" duration-ms="1703" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[1 expectation failed.
-Expected status code <200> but was <404>.
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <404>.
-
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
-at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
-at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
-at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
-at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
-at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
-at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
-at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at api_test.posts.PostEndPointTests.Test_Search_Post_ID(PostEndPointTests.java:70)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- CreatePosts -->
+        <test-method signature="Test_Search_Post_ID()[pri:0, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-19T00:17:26Z" name="Test_Search_Post_ID" finished-at="2021-03-19T00:17:29Z" duration-ms="2589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_Search_Post_ID -->
+        <test-method signature="Test_Modify_Post_by_ID()[pri:1, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-19T00:17:29Z" name="Test_Modify_Post_by_ID" finished-at="2021-03-19T00:17:31Z" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Modify_Post_by_ID -->
+        <test-method signature="Test_Delete_Post_by_ID()[pri:2, instance:api_test.posts.PostEndPointTests@5a4aa2f2]" started-at="2021-03-19T00:17:31Z" name="Test_Delete_Post_by_ID" finished-at="2021-03-19T00:17:34Z" duration-ms="2531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Delete_Post_by_ID -->
       </class> <!-- api_test.posts.PostEndPointTests -->
     </test> <!-- PostTests -->
   </suite> <!-- LocalExecution -->

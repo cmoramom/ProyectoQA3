@@ -36,4 +36,8 @@ public class DataHelper {
     public static User getTestUser(){
         return new User("","Kasandra_Bogisich@gmail.com", "pablo");
     }
+
+    public static User getTestCommentUser(){
+        return new User("testuser","", "testpass");
+    }
 }

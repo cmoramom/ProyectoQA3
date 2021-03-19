@@ -60,7 +60,7 @@ public class PostEndPointTests extends BaseTest {
 
     }
 
-    @Test(groups = "create_post")
+    @Test(groups = "create_post",priority = 0)
     public void Test_Search_Post_ID(){
 
         given()
@@ -72,7 +72,7 @@ public class PostEndPointTests extends BaseTest {
 
     }
 
-    @Test(groups = "create_post")
+    @Test(groups = "create_post", priority = 1)
     public void Test_Modify_Post_by_ID(){
 
         Post testPost = new Post(DataHelper.generateRandomTitle(), DataHelper.generateRandomContent());
@@ -88,7 +88,7 @@ public class PostEndPointTests extends BaseTest {
 
     }
 
-    @Test(groups = "create_post")
+    @Test(groups = "create_post", priority = 2)
     public void Test_Delete_Post_by_ID(){
 
 

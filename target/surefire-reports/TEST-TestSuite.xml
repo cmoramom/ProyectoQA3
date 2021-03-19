@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="14.391" tests="7" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.7" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\cmoramom\AppData\Local\Temp\surefire12382287698501682103\surefirebooter11244282875935830048.jar C:\Users\cmoramom\AppData\Local\Temp\surefire12382287698501682103 2021-03-17T20-18-21_511-jvmRun1 surefire4078788267042969697tmp surefire_017951222556692833381tmp"/>
+    <property name="sun.java.command" value="C:\Users\cmoramom\AppData\Local\Temp\surefire11605182302842367077\surefirebooter9632899415222311411.jar C:\Users\cmoramom\AppData\Local\Temp\surefire11605182302842367077 2021-03-18T18-17-05_780-jvmRun1 surefire12164705339707233147tmp surefire_0291388612115213444tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\cmoramom\Desktop\QA\curso3\target\test-classes;C:\Users\cmoramom\Desktop\QA\curso3\target\classes;C:\Users\cmoramom\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\Users\cmoramom\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\Users\cmoramom\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\Users\cmoramom\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\cmoramom\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\cmoramom\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cmoramom\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\cmoramom\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\cmoramom\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\cmoramom\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cmoramom\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\Users\cmoramom\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\Users\cmoramom\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\Users\cmoramom\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\Users\cmoramom\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\cmoramom\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\cmoramom\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\cmoramom\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\cmoramom\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\cmoramom\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\cmoramom\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\cmoramom\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\cmoramom\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.0\jackson-databind-2.6.0.jar;C:\Users\cmoramom\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\cmoramom\.m2\repository\io\rest-assured\json-schema-validator\4.3.1\json-schema-validator-4.3.1.jar;C:\Users\cmoramom\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\cmoramom\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\cmoramom\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\cmoramom\.m2\repository\com\google\guava\guava\16.0.1\guava-16.0.1.jar;C:\Users\cmoramom\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\cmoramom\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\cmoramom\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\cmoramom\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\cmoramom\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\cmoramom\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\cmoramom\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\cmoramom\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\cmoramom\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\cmoramom\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\cmoramom\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\cmoramom\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cmoramom\AppData\Local\Temp\surefire12382287698501682103\surefirebooter11244282875935830048.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cmoramom\AppData\Local\Temp\surefire11605182302842367077\surefirebooter9632899415222311411.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -55,25 +55,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="Test_Creat_Post_NOTSuccessToken" classname="api_test.posts.PostEndPointNOTSUCESSTests" time="2.765"/>
-  <testcase name="Test_Create_Post_Success" classname="api_test.posts.PostEndPointTests" time="1.515"/>
-  <testcase name="Test_Search_Post_NOID" classname="api_test.posts.PostEndPointNOTSUCESSTests" time="1.827"/>
-  <testcase name="Test_Delete_Post_by_ID" classname="api_test.posts.PostEndPointTests" time="1.633"/>
-  <testcase name="Test_Get_all_Post" classname="api_test.posts.PostEndPointTests" time="1.812"/>
-  <testcase name="Test_Modify_Post_by_ID" classname="api_test.posts.PostEndPointTests" time="1.844">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;406&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <406>.
-
-	at api_test.posts.PostEndPointTests.Test_Modify_Post_by_ID(PostEndPointTests.java:86)
-]]></failure>
-  </testcase>
-  <testcase name="Test_Search_Post_ID" classname="api_test.posts.PostEndPointTests" time="1.703">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <404>.
-
-	at api_test.posts.PostEndPointTests.Test_Search_Post_ID(PostEndPointTests.java:70)
-]]></failure>
-  </testcase>
+  <testcase name="Test_Creat_Post_NOTSuccessToken" classname="api_test.posts.PostEndPointNOTSUCESSTests" time="5.534"/>
+  <testcase name="Test_Create_Post_Success" classname="api_test.posts.PostEndPointTests" time="3.731"/>
+  <testcase name="Test_Search_Post_NOID" classname="api_test.posts.PostEndPointNOTSUCESSTests" time="0.16"/>
+  <testcase name="Test_Get_all_Post" classname="api_test.posts.PostEndPointTests" time="3.587"/>
+  <testcase name="Test_Search_Post_ID" classname="api_test.posts.PostEndPointTests" time="2.589"/>
+  <testcase name="Test_Modify_Post_by_ID" classname="api_test.posts.PostEndPointTests" time="2.47"/>
+  <testcase name="Test_Delete_Post_by_ID" classname="api_test.posts.PostEndPointTests" time="2.531"/>
 </testsuite>

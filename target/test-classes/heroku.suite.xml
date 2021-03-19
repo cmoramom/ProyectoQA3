@@ -18,6 +18,12 @@
 
     </test>
 
+    <test name="CommentTests">
+        <classes>
+            <class name="api_test.comments.CommentEndPointTests"></class>
+        </classes>
+
+    </test>
 
 
 </suite>
