@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.391 s <<< FAILURE! - in TestSuite
+Test_Modify_Post_by_ID(api_test.posts.PostEndPointTests)  Time elapsed: 1.844 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <406>.
+
+	at api_test.posts.PostEndPointTests.Test_Modify_Post_by_ID(PostEndPointTests.java:86)
+
+Test_Search_Post_ID(api_test.posts.PostEndPointTests)  Time elapsed: 1.703 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at api_test.posts.PostEndPointTests.Test_Search_Post_ID(PostEndPointTests.java:70)
+

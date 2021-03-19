@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LocalExecution" thread-count="2" parallel="tests">
+
+    <parameter name="baseUrl" value="https://api-coffee-testing.herokuapp.com"></parameter>
+
+    <test name="PostTests">
+        <classes>
+            <class name="api_test.posts.PostEndPointTests"></class>
+        </classes>
+
+    </test>
+
+    <test name="PostTestsNOTSUCESS">
+        <classes>
+            <class name="api_test.posts.PostEndPointNOTSUCESSTests"></class>
+        </classes>
+
+    </test>
+
+
+
+</suite>
